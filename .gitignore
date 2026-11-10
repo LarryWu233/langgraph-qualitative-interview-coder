@@ -1,0 +1,51 @@
+# Credentials / 凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Private research data and generated artifacts / 私人数据及运行产物
+/raw_data/
+/data/
+/processed/
+/db/
+/output/
+*.sqlite*
+*.db
+*.log
+.last_axial_thread
+
+# Local tests and experiments / 本地测试及实验
+test_*.py
+*_test.py
+/tests/
+/test/
+/fixtures/
+/experiments/
+*.ipynb
+
+# Environments and caches / 环境及缓存
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local publication workspace / 本地发布工作目录
+/.public-release/
+/.publish-tools/
